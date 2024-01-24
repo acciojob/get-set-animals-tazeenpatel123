@@ -18,6 +18,9 @@ class Dog extends Animal {
 	bark() {
     console.log("woof");
   }
+	 makeSound() {
+        console.log("bark");
+    }
 }
 
 class Cat extends Animal {
@@ -27,6 +30,9 @@ class Cat extends Animal {
 	purr() {
     console.log("purr");
   }
+	 makeSound() {
+        console.log("Meow");
+    }
 }
 
 // Do not change the code below this line
